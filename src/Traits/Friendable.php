@@ -2,22 +2,22 @@
 
 namespace imsidz\Friendships\Traits;
 
-use Hootlex\Friendships\Models\Friendship;
-use Hootlex\Friendships\Models\FriendFriendshipGroups;
-use Hootlex\Friendships\Status;
+use imsidz\Friendships\Models\Friendship;
+use imsidz\Friendships\Models\FriendFriendshipGroups;
+use imsidz\Friendships\Status;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Event;
 
 /**
  * Class Friendable
- * @package Hootlex\Friendships\Traits
+ * @package imsidz\Friendships\Traits
  */
 trait Friendable
 {
     /**
      * @param Model $recipient
      *
-     * @return \Hootlex\Friendships\Models\Friendship|false
+     * @return \imsidz\Friendships\Models\Friendship|false
      */
     public function befriend(Model $recipient)
     {
@@ -172,7 +172,7 @@ trait Friendable
     /**
      * @param Model $recipient
      *
-     * @return \Hootlex\Friendships\Models\Friendship
+     * @return \imsidz\Friendships\Models\Friendship
      */
     public function blockFriend(Model $recipient)
     {
@@ -210,7 +210,7 @@ trait Friendable
     /**
      * @param Model $recipient
      *
-     * @return \Hootlex\Friendships\Models\Friendship
+     * @return \imsidz\Friendships\Models\Friendship
      */
     public function getFriendship(Model $recipient)
     {
