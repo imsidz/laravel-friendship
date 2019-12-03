@@ -42,7 +42,7 @@ php artisan migrate
 ## Setup a Model
 
 ```php
-use Hootlex\Friendships\Traits\Friendable;
+use Imsidz\Friendships\Traits\Friendable;
 class User extends Model
 {
     use Friendable;
@@ -52,7 +52,7 @@ class User extends Model
 
 ## How to use
 
-[Check the Test file to see the package in action](https://github.com/hootlex/laravel-friendships/blob/master/tests/FriendshipsTest.php)
+[Check the Test file to see the package in action](https://github.com/Imsidz/laravel-friendships/blob/master/tests/FriendshipsTest.php)
 
 #### Send a Friend Request
 
