@@ -1,13 +1,13 @@
 <?php
 
-namespace Hootlex\Friendships\Models;
+namespace Imsidz\Friendships\Models;
 
-use Hootlex\Friendships\Status;
+use Imsidz\Friendships\Status;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class FriendFriendshipGroups
- * @package Hootlex\Friendships\Models
+ * @package Imsidz\Friendships\Models
  */
 class FriendFriendshipGroups extends Model
 {
@@ -31,5 +31,4 @@ class FriendFriendshipGroups extends Model
 
         parent::__construct($attributes);
     }
-
 }
