@@ -1,6 +1,6 @@
 # Laravel 5 Friendships
 
-[![Build Status](https://travis-ci.org/Imsidz/laravel-friendships.svg?branch=v1.0.21)](https://travis-ci.org/Imsidz/laravel-friendships) [![Code Climate](https://codeclimate.com/github/Imsidz/laravel-friendships/badges/gpa.svg)](https://codeclimate.com/github/Imsidz/laravel-friendships) [![Test Coverage](https://codeclimate.com/github/Imsidz/laravel-friendships/badges/coverage.svg)](https://codeclimate.com/github/Imsidz/laravel-friendships/coverage) [![Total Downloads](https://img.shields.io/packagist/dt/Imsidz/laravel-friendships.svg?style=flat)](https://packagist.org/packages/Imsidz/laravel-friendships) [![Version](https://img.shields.io/packagist/v/Imsidz/laravel-friendships.svg?style=flat)](https://packagist.org/packages/Imsidz/laravel-friendships) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE) [![Join the chat at https://gitter.im/laravel-friendships/Lobby](https://badges.gitter.im/laravel-friendships/Lobby.svg)](https://gitter.im/laravel-friendships/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/imsidz/laravel-friendships.svg?branch=v1.0.21)](https://travis-ci.org/imsidz/laravel-friendships) [![Code Climate](https://codeclimate.com/github/imsidz/laravel-friendships/badges/gpa.svg)](https://codeclimate.com/github/imsidz/laravel-friendships) [![Test Coverage](https://codeclimate.com/github/imsidz/laravel-friendships/badges/coverage.svg)](https://codeclimate.com/github/imsidz/laravel-friendships/coverage) [![Total Downloads](https://img.shields.io/packagist/dt/imsidz/laravel-friendships.svg?style=flat)](https://packagist.org/packages/imsidz/laravel-friendships) [![Version](https://img.shields.io/packagist/v/imsidz/laravel-friendships.svg?style=flat)](https://packagist.org/packages/imsidz/laravel-friendships) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE) [![Join the chat at https://gitter.im/laravel-friendships/Lobby](https://badges.gitter.im/laravel-friendships/Lobby.svg)](https://gitter.im/laravel-friendships/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This package gives Eloquent models the ability to manage their friendships.
 You can easily design a Facebook like Friend System.
@@ -42,7 +42,7 @@ php artisan migrate
 ## Setup a Model
 
 ```php
-use Imsidz\Friendships\Traits\Friendable;
+use imsidz\Friendships\Traits\Friendable;
 class User extends Model
 {
     use Friendable;
@@ -52,7 +52,7 @@ class User extends Model
 
 ## How to use
 
-[Check the Test file to see the package in action](https://github.com/Imsidz/laravel-friendships/blob/master/tests/FriendshipsTest.php)
+[Check the Test file to see the package in action](https://github.com/imsidz/laravel-friendships/blob/master/tests/FriendshipsTest.php)
 
 #### Send a Friend Request
 
