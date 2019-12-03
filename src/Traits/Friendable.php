@@ -1,6 +1,6 @@
 <?php
 
-namespace Hootlex\Friendships\Traits;
+namespace imsidz\Friendships\Traits;
 
 use Hootlex\Friendships\Models\Friendship;
 use Hootlex\Friendships\Models\FriendFriendshipGroups;

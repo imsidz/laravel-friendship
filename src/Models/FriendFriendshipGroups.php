@@ -1,13 +1,13 @@
 <?php
 
-namespace Imsidz\Friendships\Models;
+namespace imsidz\Friendships\Models;
 
-use Imsidz\Friendships\Status;
+use imsidz\Friendships\Status;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class FriendFriendshipGroups
- * @package Imsidz\Friendships\Models
+ * @package imsidz\Friendships\Models
  */
 class FriendFriendshipGroups extends Model
 {

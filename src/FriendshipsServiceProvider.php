@@ -1,6 +1,6 @@
 <?php
 
-namespace Imsidz\Friendships;
+namespace imsidz\Friendships;
 
 use Illuminate\Support\ServiceProvider;
 

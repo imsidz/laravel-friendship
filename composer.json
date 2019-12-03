@@ -15,8 +15,8 @@
       "email": "imsidzluv@gmail.com"
     },
     {
-      "name": "Hootlex",
-      "email": "hootlex@icloud.com"
+      "name": "Imsidz",
+      "email": "Imsidz@icloud.com"
     }
   ],
   "autoload-dev": {
@@ -43,13 +43,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Imsidz\\Friendships\\": "src/"
+      "imsidz\\Friendships\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Imsidz\\Friendships\\FriendshipsServiceProvider"
+        "imsidz\\Friendships\\FriendshipsServiceProvider"
       ]
     }
   },
