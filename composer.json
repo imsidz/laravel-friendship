@@ -11,12 +11,12 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Hootlex",
-      "email": "hootlex@icloud.com"
-    },
-    {
       "name": "Imsidz",
       "email": "imsidzluv@gmail.com"
+    },
+    {
+      "name": "Hootlex",
+      "email": "hootlex@icloud.com"
     }
   ],
   "autoload-dev": {
@@ -31,7 +31,7 @@
     }
   },
   "require": {
-    "php": ">=5.4.0"
+    "php": ">=7.2.0"
   },
   "require-dev": {
     "phpunit/phpunit": "5.*",
